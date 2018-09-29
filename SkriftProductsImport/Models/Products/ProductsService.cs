@@ -119,10 +119,10 @@ namespace SkriftProductsImport.Models.Products {
                     content.SetValue("price", product.Price);
 
                     // Update other properties (outcommented as we don't want to overwrite if an editor has changed the properties)
-                    content.SetValue("category", String.Join(",", product.Categories));
-                    content.SetValue("description", product.Description);
-                    content.SetValue("photos", images);
-                    content.SetValue("features", GetFeaturesValue(product));
+                    //content.SetValue("category", String.Join(",", product.Categories));
+                    //content.SetValue("description", product.Description);
+                    //content.SetValue("photos", images);
+                    //content.SetValue("features", GetFeaturesValue(product));
 
                     // Save and publish the product
                     ContentService.SaveAndPublishWithStatus(content, ProductConstants.ImportUserId);
