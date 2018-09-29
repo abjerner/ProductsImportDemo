@@ -1,0 +1,28 @@
+﻿<div class="SkriftDashboard" ng-controller="Products.Dashboard.Controller">
+    <button prevent-default ng-click="import()" class="btn btn-default" ng-class="{loading: loading}">
+        <span>Import products</span>
+        <div class="umb-button__progress"></div>
+    </button>
+    <div ng-if="result" ng-class="{loading: loading}">
+        <table class="table list">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Status</th>
+                <th>Name</th>
+                <th>&nbsp;</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="item in result.items">
+                <td><code>{{item.id}}</code></td>
+                <td style="white-space: nowrap;">{{item.status}}</td>
+                <td style="width: 100%;"><strong>{{item.name}}</strong></td>
+                <td style="padding-top: 2px; padding-bottom: 2px;">
+                    <a ng-if="item.contentId > 0" href="/umbraco/#/content/content/edit/{{item.contentId}}" class="btn btn-default">Edit</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

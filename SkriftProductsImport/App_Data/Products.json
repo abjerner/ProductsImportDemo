@@ -1,0 +1,192 @@
+﻿{
+  "products": [
+    {
+      "id": "6e839326-7c69-4f8e-90a9-c336b8076985",
+      "name": "Biker Jacket",
+      "price": 199,
+      "categories": [
+        "bingo",
+        "clothing"
+      ],
+      "description": "Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat.",
+      "sku": "UMB-BIKER-JACKET",
+      "features": [
+        {
+          "name": "Free shipping",
+          "details": "Isn't that awesome - you only pay for the product"
+        },
+        {
+          "name": "1 Day return policy",
+          "details": "You'll need to make up your mind fast"
+        },
+        {
+          "name": "100 Years warranty",
+          "details": "But if you're satisfied it'll last a lifetime"
+        }
+      ],
+      "images": [
+        {
+          "id": "1357f9a7-b5c1-4567-9c50-8a78a7d643de",
+          "name": "biker-jacket.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46105077-5bf86380-c1d5-11e8-97d3-4f4695e35c5f.jpg",
+          "width": 680,
+          "height": 1024,
+          "size": 224349
+        }
+      ]
+    },
+    {
+      "id": "a4e6ebec-93fa-4a66-8cf3-4c97f2926925",
+      "name": "Tattoo",
+      "price": 499,
+      "categories": [
+        "tattoo",
+        "dedication"
+      ],
+      "description": "Cras ultricies ligula sed magna dictum porta.",
+      "sku": "UMB-TATTOO",
+      "features": [],
+      "images": [
+        {
+          "id": "d4d430cb-4133-42c9-a163-e3b6688aeffe",
+          "name": "tattoo.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46105994-d3c78d80-c1d7-11e8-9d90-5c35be217c37.jpg",
+          "width": 683,
+          "height": 1024,
+          "size": 258796
+        }
+      ]
+    },
+    {
+      "id": "3d645ac9-36f5-499c-a86a-8aae6732053a",
+      "name": "Unicorn",
+      "price": 249,
+      "categories": [
+        "animals"
+      ],
+      "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.",
+      "sku": "UMB-UNICORN",
+      "features": [],
+      "images": [
+        {
+          "id": "e05851d0-b3c5-4fbc-881a-51bf958bfcdc",
+          "name": "unicorn.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46106017-e0e47c80-c1d7-11e8-9af6-eb0c09e03b06.jpg",
+          "width": 1067,
+          "height": 1600,
+          "size": 367954
+        }
+      ]
+    },
+    {
+      "id": "13e9852d-2f75-4068-b562-b56abd0619f8",
+      "name": "Ping Pong Ball",
+      "price": 2,
+      "categories": [
+        "sports",
+        "bingo"
+      ],
+      "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ultricies ligula sed magna dictum porta.",
+      "sku": "UMB-PINGPONG",
+      "features": [],
+      "images": [
+        {
+          "id": "001fbb17-73d1-4b14-acb6-3de549be65a0",
+          "name": "ping-poll-ball.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46106048-f3f74c80-c1d7-11e8-96a5-850597c35f74.jpg",
+          "width": 1024,
+          "height": 683,
+          "size": 205417
+        }
+      ]
+    },
+    {
+      "id": "e69dddca-0a26-43c6-a0c1-f8345fbc5921",
+      "name": "Bowling Ball",
+      "price": 899,
+      "categories": [
+        "sports",
+        "bingo"
+      ],
+      "description": "Cras ultricies ligula sed magna dictum porta.",
+      "sku": "UMB-BOWLING",
+      "features": [],
+      "images": [
+        {
+          "id": "d837c82f-b94b-462a-8ac5-e5b44d65c08c",
+          "name": "bowling-ball.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46106068-007ba500-c1d8-11e8-8e98-1c4357cc6e83.jpg",
+          "width": 684,
+          "height": 1024,
+          "size": 222536
+        }
+      ]
+    },
+    {
+      "id": "3735d781-b6d3-4827-84d4-13d7023bdd9c",
+      "name": "Jumpsuit",
+      "price": 89,
+      "categories": [
+        "fashion",
+        "bingo"
+      ],
+      "description": "Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.",
+      "sku": "UMB-JUMPSUIT",
+      "features": [],
+      "images": [
+        {
+          "id": "1fc64241-57b2-4745-910a-eb65cb2fc719",
+          "name": "jumpsuit.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46106097-14270b80-c1d8-11e8-875c-486c7357fd83.jpg",
+          "width": 683,
+          "height": 1024,
+          "size": 369611
+        }
+      ]
+    },
+    {
+      "id": "2801021d-59b3-4c95-93ea-ebc34c9a10f6",
+      "name": "Banjo",
+      "price": 399,
+      "categories": [
+        "bingo",
+        "music"
+      ],
+      "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus.",
+      "sku": "UMB-BANJO",
+      "features": [],
+      "images": [
+        {
+          "id": "59324e44-f80e-4768-b9e8-9427ca831777",
+          "name": "banjo.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46106107-230dbe00-c1d8-11e8-8ab1-f977526d21fb.jpg",
+          "width": 1024,
+          "height": 683,
+          "size": 299546
+        }
+      ]
+    },
+    {
+      "id": "79e56f45-ca73-4105-9f55-07b0ca28e7d7",
+      "name": "Knitted Unicorn West",
+      "price": 1899,
+      "categories": [
+        "bingo",
+        "fashion"
+      ],
+      "description": "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.",
+      "sku": "UMB-WEST",
+      "features": [],
+      "images": [
+        {
+          "id": "67909599-3f21-4c5d-a6ed-91396b0b837d",
+          "name": "knitted-vest.jpg",
+          "url": "https://user-images.githubusercontent.com/3634580/46106106-230dbe00-c1d8-11e8-8fca-7714b916f606.jpg",
+          "width": 683,
+          "height": 1024,
+          "size": 602717
+        }
+      ]
+    }
+  ]
+}

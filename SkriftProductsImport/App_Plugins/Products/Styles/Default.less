@@ -1,0 +1,42 @@
+﻿.SkriftProductData {
+    pre {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 14px;
+        white-space: pre-wrap;
+    }
+}
+
+.SkriftDashboard {
+
+    div.loading {
+        opacity: 0.5;
+    }
+
+    table {
+        margin-top: 10px;
+
+        .btn {
+            padding: 3px 10px;
+            font-size: 12px
+        }
+    }
+
+    .btn {
+        position: relative;
+
+        .umb-button__progress {
+            display: none;
+        }
+
+        &.loading {
+            span {
+                opacity: 0.2;
+            }
+
+            .umb-button__progress {
+                display: block;
+            }
+        }
+    }
+}

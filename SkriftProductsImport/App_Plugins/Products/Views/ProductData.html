@@ -1,0 +1,12 @@
+﻿<div class="SkriftProductData" ng-controller="Products.ProductData.Controller">
+    <em ng-if="!data">No value</em>
+    <div ng-if="data">
+        <div class="buttons">
+            <a href="#" class="btn" prevent-default="" ng-click="showJSON = !showJSON">
+                Show JSON
+                <small>({{dataSize | number: 2}} KB)</small>
+            </a>
+        </div>
+        <pre ng-show="showJSON">{{data | json}}</pre>
+    </div>
+</div>

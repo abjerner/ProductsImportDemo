@@ -1,0 +1,20 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "Skrift.ProductData",
+      "name": "Product Data",
+      "editor": {
+        "isReadOnly": true,
+        "valueType": "TEXT",
+        "view": "/App_Plugins/Products/Views/ProductData.html"
+      }
+    }
+  ],
+  "javascript": [
+    "/App_Plugins/Products/Scripts/Controllers/Dashboard.js",
+    "/App_Plugins/Products/Scripts/Controllers/ProductData.js"
+  ],
+  "css": [
+    "/App_Plugins/Products/Styles/Default.css"
+  ] 
+}
