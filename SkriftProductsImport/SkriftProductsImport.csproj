@@ -308,6 +308,7 @@
     <Compile Include="Models\Products\ProductList.cs" />
     <Compile Include="Models\Products\ProductsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkriftOwinStartup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="config\imageprocessor\security.config" />
